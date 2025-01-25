@@ -1,0 +1,138 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: realtive;
+}
+
+.header {
+    background: transparent;
+    color: #050505;
+    padding: 10px;
+    display: inline-flexbox ;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    border-radius: 10px;
+    
+}
+
+/* .company-name {
+    margin: 0;
+    margin-left: 0rem;
+    display: inline-flex;
+} */
+.logo { 
+    height: 100px; 
+    padding-top: 10px;
+    display: inline-flex;
+}
+
+.login-buttons {
+    margin-top: 2rem;
+    margin-left: 47rem;
+    display: inline-flex;
+    /* padding-left: outset; */
+    
+    
+}
+
+.btn {
+    background: #d8d8d2;
+    color: #161515;
+    
+    border-color: #f56512;
+    border-radius: 30px;
+    padding: 10px 30px;
+    width: 140px;
+    height: 40px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #52ee5f;
+}
+
+
+
+.container {
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: -10px;
+    display: flex;
+}
+
+.image-fit {
+    width: 20px;
+    height: 40px;
+}
+
+/* body part */
+.form-container { 
+    display: flex; 
+    justify-content: right; 
+    margin-right: 5rem;
+    /* border: 4px solid #201f1f; */
+    padding-left: 100px;
+    margin-top: 55px;
+    padding-bottom: 15px;
+    padding-top: -20px;
+     
+}
+.page-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-right: 80px;
+    margin-left: -130px;
+    border-radius: 3px solid #201f1f;
+    background-color: #f4f4f4;
+}
+.image{
+    width: 55%;
+    height: 80%;
+    margin-right: 300px;
+    margin-top: 10px;
+    border: 3px solid #050505;
+    border-radius: 70px;
+}
+.login-form{
+    margin-right: 60px;
+    border-radius: 3px solid #201f1f;
+    background-color: #f4f4f4;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+form { 
+    display: flex; 
+    flex-direction: column; 
+    text-align: center;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+} 
+h2 { 
+    margin-bottom: 70px; 
+    margin-top: -20px;
+    
+} 
+input { 
+    margin-bottom: 10px; 
+    padding: 10px; 
+    font-size: 16px; 
+} 
+button { 
+    padding: 10px; background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+} 
+button:hover { background-color: #65be69; }
